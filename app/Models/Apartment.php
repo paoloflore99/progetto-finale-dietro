@@ -11,6 +11,8 @@ use App\Models\Image;
 use App\Models\Message;
 use App\Models\Service;
 use App\Models\Sponsor;
+use views;
+
 
 
 class Apartment extends Model
@@ -51,7 +53,7 @@ class Apartment extends Model
     }
     public function views()
     {
-        return $this->hasMany(View::class);
+        return $this->hasMany(views::class);
     }
     public function messages()
     {

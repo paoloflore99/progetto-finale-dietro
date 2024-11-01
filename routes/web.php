@@ -38,10 +38,10 @@ Route::middleware(["auth", "verified"])
         Route::delete("/apartments/{id}", [ApartmentController::class, "destroy"])->name("apartments.destroy");       //DESTROY
         // la route dell'update posso chiamarla in put o patch è indifferente, questa rotta riceverà i dati di edit e aggiornare l'elemento nel database a differenza dello store che crea l'elemento
         // All user sponsor per apartment
-        Route::get('/sponsors/{id}', [SponsorController::class, 'index'])->name('sponsors.index');
+        //Route::get('/sponsors/{id}', [SponsorController::class, 'index'])->name('sponsors.index');
         Route::get("messages", [MessageController::class, "index"])->name("messages");
         // Payment process
-        Route::post('/payments', [PaymentController::class, 'processPayment'])->name('process_payment');
+        //Route::post('/payments', [PaymentController::class, 'processPayment'])->name('process_payment');
     });
 
 Route::get('/dashboard', function () {

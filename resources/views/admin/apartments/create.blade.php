@@ -20,15 +20,15 @@
                     </div>
 
                     <div class="col-6 sotto-due">
-                        {{--<video controls width="100%" autoplay muted> 
+                        <video controls width="100%" autoplay muted> 
                             <source class="d-block"
                                 src="https://stream.media.muscache.com/zFaydEaihX6LP01x8TSCl76WHblb01Z01RrFELxyCXoNek.mp4?v_q=high"
                                 type="video/mp4"> 
-                        </video>--}}
+                        </video>
 
-                        <div class="d-block">
+                        {{--<div class="d-block">
                             <img class="gift img-fluid" width="100%" src="{{ asset('assets/img/ezgif.com-video-to-gif.gif') }}" alt="">
-                        </div>
+                        </div>--}}
                     </div>
                 </div>
             </div>

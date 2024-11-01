@@ -24,4 +24,4 @@ Route::post("contacts", [ContactController::class, "store"]);
 Route::get("apartments",[ApartmentController::class, "index"]);
 Route::get("apartments/{id}", [ApartmentController::class, "show"]);
 // Get sponsored apartments
-Route::get('sponsors', [SponsorController::class, 'index'])->name('api.sponsors.index');
+//Route::get('sponsors', [SponsorController::class, 'index'])->name('api.sponsors.index');
