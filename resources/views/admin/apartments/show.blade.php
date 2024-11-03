@@ -20,6 +20,7 @@
 
         <p><strong>Stanze:</strong> {{ $apartments->room }}</p>
         <p><strong>Letti:</strong> {{ $apartments->bed }}</p>
+        <p><strong>Bagni:</strong> {{ $apartments->bathroom }}</p>
 
         <div class="d-flex">
             <a href="{{ route('admin.apartments.index') }}" class="btn btn-sm m-2 btn-primary">Torna alla lista</a>

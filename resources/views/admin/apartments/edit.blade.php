@@ -45,8 +45,10 @@
                     </div> --}}
                     <div class="mb-3">
                         <label class="form-label">Aggiungi nuove immagini:</label>
+                        <img style="width: 310px" src=" {{ asset('/storage/' . $apartments->images) }}" alt="">
                         <input type="file" class="form-control" name="images" multiple>
                     </div>
+                    
                     <div class="mb-3">
                         <label class="form-label">Descrizione:</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" name="description" rows="3">{{ old('description', $apartments->description) }}</textarea>
